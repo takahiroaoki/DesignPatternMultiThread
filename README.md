@@ -11,7 +11,7 @@ Javaのバージョンの関係や学習のために、配布されたコード�
 
 コンテナについてはDocker Desktop for Windowsを使用し、Visual Studio CodeからRemote Development機能を用いてコンテナに接続しています。
 
-また、.devcontainerディレクトリと同一階層にある各パッケージ内で依存関係は簡潔しており、各パッケージ内のExecuteXXX.javaを実行することができます。
+また、末端の各パッケージ内で依存関係は簡潔しており、各パッケージ内のExecuteXXX.javaを実行することができます。
 
 一部、コマンドライン引数などを使用するコードについてはExecuteXXX.javaコード内に実行方法を記載しているのでそれを参考にしてください。
 
