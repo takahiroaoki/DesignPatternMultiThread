@@ -1,6 +1,6 @@
-package introduction1.example1;
+package introduction.example1;
 
-public class ExecuteIntro1Exam1 {
+public class ExecuteIntroExam1 {
     public static void main(String[] args) {
         MyThread thread = new MyThread();
         thread.start();

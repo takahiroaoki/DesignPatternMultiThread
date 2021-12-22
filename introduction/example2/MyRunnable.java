@@ -1,4 +1,4 @@
-package introduction1.example2;
+package introduction.example2;
 
 public class MyRunnable implements Runnable {
 
