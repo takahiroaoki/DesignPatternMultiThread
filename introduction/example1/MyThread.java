@@ -1,4 +1,4 @@
-package introduction1.example1;
+package introduction.example1;
 
 public class MyThread extends Thread {
     
