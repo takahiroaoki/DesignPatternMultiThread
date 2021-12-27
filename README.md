@@ -5,17 +5,18 @@
 Javaのバージョンの関係や学習のために、配布されたコードと異なる箇所が複数あります。元のコードは[SBクリエイティブの商品ページ](https://www.sbcr.jp/product/4797331623/)からダウンロードすることができます。また著者の方の公式サイトは[コチラ](https://www.hyuki.com/)です。
 
 
-## 利用時の注意事項
+## 実行環境
 
-書籍とは異なり、本レポジトリのコードはDockerコンテナ上で開発しています。
-
-本レポジトリの実行環境は以下です。
+本レポジトリのコードの実行環境は以下です。
 
 - Windows 10
 - [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop) 4.2.0
 - VSCode with the extention of Remote Development 0.21.0
 
+## 動作確認
+
 動作確認をする際は以下の手順で行ってください。
+
 1. Docker Desktopを起動する。
 2. DesignPatternMultiThreadフォルダ（つまりこのプロジェクト）をRemote Development拡張機能をインストールしたVSCodeで開く
 3. コマンドパレットから"Reopen in Container"を実行する。
