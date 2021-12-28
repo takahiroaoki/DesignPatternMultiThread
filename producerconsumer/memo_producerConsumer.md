@@ -1,0 +1,7 @@
+# Producer Consumerパターン
+
+Data（今回のプログラムではcake）を作る役と使う役を用意し、並行して走らせる際、それらのタイミングを調整するChannel役（今回でいうTable）を利用するパターン。
+
+Tableクラスはjava.util.concurrent.ArrayBlockingQueueクラスとほぼ同じ機能であるので、これを継承すればさらに手軽に準備できる。
+
+Producer役やConsumer役の平均的な処理能力は同程度にしておかないとChannel役の所有する内容は常に満杯か常に枯渇している状態になってしまうので注意。また平均的には同程度の処理能力にしても、分散がでる。その分散に対する余裕がChannel役のcapacityである。
