@@ -1,3 +1,5 @@
+package future;
+
 public class RealData implements Data {
     
     private final String content;
